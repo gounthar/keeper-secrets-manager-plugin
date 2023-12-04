@@ -4,7 +4,7 @@
   <parent>
     <groupId>org.jenkins-ci.plugins</groupId>
     <artifactId>plugin</artifactId>
-    <version>4.50</version>
+    <version>4.51</version>
     <relativePath/>
   </parent>
 
@@ -16,7 +16,7 @@
   <properties>
     <revision>1.0</revision>
     <changelist></changelist>
-    <jenkins.version>2.332.4</jenkins.version>
+    <jenkins.version>2.346.3</jenkins.version>
     <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     <jenkins.addOpens />
     <jenkins.insaneHook />
@@ -85,7 +85,6 @@
     <dependency>
       <groupId>org.jenkins-ci.main</groupId>
       <artifactId>jenkins-test-harness</artifactId>
-      <version>1827.v6b_cc1a_74b_ed5</version>
     </dependency>
 
     <!-- vulnerability fixes -->
@@ -98,17 +97,14 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-core</artifactId>
-      <version>5.7.8</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-crypto</artifactId>
-      <version>5.7.8</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-web</artifactId>
-      <version>5.7.8</version>
     </dependency>
     <dependency>
       <groupId>commons-net</groupId>
@@ -118,12 +114,10 @@
     <dependency>
       <groupId>commons-fileupload</groupId>
       <artifactId>commons-fileupload</artifactId>
-      <version>1.5</version>
     </dependency>
     <dependency>
       <groupId>com.thoughtworks.xstream</groupId>
       <artifactId>xstream</artifactId>
-      <version>1.4.20</version>
     </dependency>
     <dependency>
       <groupId>org.eclipse.jetty</groupId>
@@ -137,7 +131,6 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>cloudbees-folder</artifactId>
-      <version>6.15</version>
       <scope>test</scope>
     </dependency>
     <dependency>
